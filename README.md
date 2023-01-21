@@ -19,7 +19,6 @@ End the program
 
 ## Program:
 ```python
-/*
 '''Program to solve a matrix using Gaussian elimination with partial pivoting.
 Developed by:
 RegisterNumber 
@@ -44,7 +43,6 @@ for i in range(n-2,-1,-1):
     x[i]=x[i]/arr[i][i]
 for i in range(n):
     print("X%d = %0.2f"%(i,x[i]),end= " ")
-*/
 ```
 ## Output:
 ![gaussian elimination](/Screenshot_20230121_112132.png)
